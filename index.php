@@ -1,29 +1,16 @@
 <?php
-
-
-include_once('user.php');
-
-if(isset($_POST['submit'])){
-    $name = $_POST['user'];
-    $pass = $_POST['pass'];
-
-    $object = new User();
-    $object->Login($name, $pass);
-}
-
-
+    session_start();
+    require 'db.php';
 ?>
-
-
-
 <html>
 <head><head>
 <body>
-
-    <form method="post" action="index.php">
+    <?php if(isset($_SESSION['brukernavn'])) echo 'Hei, ' . $_SESSION['brukernavn']; ?>
+    <form method="post" action="test.php">
         Brukernavn: <input type="text" name="user"/>@westerdals.no
         Passord: <input type="password" name="pass"/>
         <input type="submit" name="submit" value="Logg inn"/>
     </form>
+    <?php if(isset($_SESSION['brukernavn'])) echo '<a href="loggut.php">Logg ut</a>'; ?>
 </body>
 </html>
