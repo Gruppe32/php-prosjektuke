@@ -1,0 +1,47 @@
+body {
+	margin: auto;
+	padding: 0;
+	background-color: #fffff9;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;font-family:'Open Sans',sans-serif;
+}
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin: 30px;
+}
+h2 {
+	font-size: 24px;
+	margin: 20px;
+}
+p {
+	margin: 20px;
+}
+#hovedboks {
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	height: 600px;
+	width: 900px;
+	background-color: #fffff9;
+	border: 3px solid #000000;
+}
+#logo {
+	margin: auto;
+	display: block;
+	height: 20%;
+	width: 20%;
+}
+.border {
+	margin: auto;
+	width: 80%;
+	height: 1em;
+    position: relative;
+    bottom: 0px;
+	background-image: url("../img/border.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}

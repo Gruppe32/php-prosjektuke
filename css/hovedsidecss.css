@@ -13,28 +13,65 @@ body{
 	font-weight: 500;
 	line-height: 26.3999996185303px;
 }
-	
-#logo {
-	margin: auto;
-	position: relative;
-}
 a {
 	text-decoration: none;
+}	
+#logo {
+	margin: auto;
+	margin-bottom: 30px;
+	display: block;
+	height: 40%;
+	width: 20%;
+}
+#logouttext {	
+	text-align: center;
+	font-size: 20px;
+	top: 1px;
+	margin-top: 6px;	
+}
+.logout {
+	margin: 40px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+	width: 200px;
+	border: 3px solid #000000;
+	background-color: #fffff9;
+	z-index: 3;
+	color: #000000;
+}
+.logout:hover {
+	color: #fffff9;
+	background-color: #000000;
 }
 
 /* Kilder for dropdown menu: 
 	http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu */
 #dropdownmenu { 
 	height: 0;
-	width: 34em;
+	width: 850px;
 	position: relative;
 	margin: auto;
 	z-index: 2;
 	text-align: center;
 }
-.hovedfane:hover {
+#fane1:hover {
+			border-bottom: 3px solid #FF7061;
+}
+#fane2:hover {
 			border-bottom: 3px solid #61AFCA;
 }
+#fane3:hover {
+			border-bottom: 3px solid #FFD066;
+}
+#fane4:hover {
+			border-bottom: 3px solid #7EC59D;
+}
+#fane5:hover {
+			border-bottom: 3px solid #795580;
+}
+
 nav ul ul {
 	display: none;
 }
@@ -105,8 +142,7 @@ nav ul {
 	border-top: 5px solid #000000;
 	margin-top: 40px;
 }
-
-#boks {
+.boks {
 	width: 10em;
 	height: 10em;
 	border: 3px solid #000000;
@@ -117,7 +153,7 @@ nav ul {
     -o-transition: border-color  linear 0.3s;
     transition: border-color  linear 0.3s;
 }
-#text {
+.text {
 	font-size: 1.2em;
 	position: relative;
 	top: 3em;
@@ -126,35 +162,32 @@ nav ul {
 	color: #000000;
 
 }
-#boks:hover {
+.boks:hover {
 	border: 0.1em solid transparent;
 	background-color: #61AFCA;
 
 }
-
-.b1 {
+#b1 {
 	top: 1em; 
 	left: 1em;
 }
-
-.b2 {
+#b2 {
 	top: 1em;
 	left: 12em;
 }
-
-.b3 {
+#b3 {
 	top: 1em;
 	right: 1em;			
 }
-.b4 {
+#b4 {
 	left: 1em;
 	top: 12em;
 }
-.b5 {
+#b5 {
 	top: 12em;
 	left: 12em;	
 }
-.b6 {
+#b6 {
 	top: 12em;
 	right: 1em;
 }
@@ -179,15 +212,8 @@ nav ul {
 	bottom: 0;
 	right: 0;
 }
-#kart {
-	height: 30%;
-	width: 30%;
-	margin: auto;
-	position: relative;
-}
-:target {
-	visibility: ;
-}
+
+
 
 
 

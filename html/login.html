@@ -2,19 +2,27 @@
 
 <html>                                                      
 <head>
+
 	<link type="text/css" rel="stylesheet" href="../css/logincss.css"/>
 	<link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
 	<title>Login</title>
-<head>                                                
+	
+</head>                                                
 <body> 
+
 	<!-- Kilde for logo: http://westerdals.modulez.no/public/article/196-hovedlogo -->
-	<img src="../img/midtlogo.jpg" id="logo">
-	<div id="hovedboks">                                                                                                            
-    	<form method="post" action="../logginn.php">                  
+	<img src="../img/midtlogo.jpg" alt="logo" id="logo">
+
+	<h1>Booking av grupperom</h1> 
+
+	<div id="hovedboks">                                                                                   
+    	<form method="post" action="index.php">                  
         	Brukernavn:<br>  <input type="text" name="user" class="boks" id="brukernavn"/><br>        
         	Passord:<br>  <input type="password" name="pass" class="boks"/>        
        	 <input type="submit" name="submit" value="Logg inn" id="login" />
     	</form> 
-	</div>                                                  
-</body>                                                      
+	</div> 
+
+</body>
+
 </html>
